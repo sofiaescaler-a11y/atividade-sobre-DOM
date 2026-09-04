@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mudarCor() {
+            var body = document.querySelector("body")
+            var input = document.querySelector("#cor")
+
+            var cor = input.value
+
+            body.style.backgroundColor = cor
+        }
+    </script>
+</head>
+<body>
+    <h1>Texto</h1>
+    <p id="txt1">Texto 2</p>
+    <p class="txt1">Texto 3</p>
+    <img id="imagem" />
+
+    <input id="cor" type="color" />
+
+    <button onclick="mudarCor()">Mudar Cor da pagina</button>
+</body>
+</html>

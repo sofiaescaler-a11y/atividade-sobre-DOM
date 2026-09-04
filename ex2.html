@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex2</title>
+
+    <script>
+        
+        function nomear(){
+            var input = document.querySelector("#texto")
+            var p = document.querySelector("p")
+            var button = document.querySelector("button")
+            var nome = input.value 
+
+            p.innerText = nome
+
+        }
+        
+    </script>
+</head>
+<body>
+    <p>nome</p>
+    <button onclick="nomear()">Mudar o nome</button>
+    <input id="texto" type="text">
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex34</title>
+    <script>
+        
+        function descobrir(){
+            var p = document.querySelector("p")
+            var h1 = document.querySelector("h1")
+            p.style.display = "none"
+            h1.style.display = "block"
+
+        }
+    </script>
+</head>
+<body>
+    <style>
+        p{
+            display: block
+        }
+        h1{
+            display: none;
+        }
+    </style>
+    <h1>Texto resetado</h1>
+    <p>mensagem subliminar</p>
+    <button onclick="descobrir()">clique para ver a mensagem</button>
+</body>
+</html>
